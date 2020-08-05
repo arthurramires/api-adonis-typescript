@@ -60,6 +60,16 @@
     picomatch "^2.2.2"
     slash "^3.0.0"
 
+"@adonisjs/auth@^4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@adonisjs/auth/-/auth-4.3.0.tgz#4a4979a6fcce01c7d2169d6747c6798302a77846"
+  integrity sha512-yO5Mp4dzIHuwK5tmBXyIdQKiMgLzN+3iTrvbndRSg1b5haqLmyPvVTKanPO1fDz4YFR3RFjq57qc2UMTGZh1vQ==
+  dependencies:
+    "@poppinss/hooks" "^1.1.1"
+    "@poppinss/utils" "^2.5.2"
+    luxon "^1.24.1"
+    pluralize "^8.0.0"
+
 "@adonisjs/bodyparser@^4.0.5":
   version "4.0.5"
   resolved "https://registry.yarnpkg.com/@adonisjs/bodyparser/-/bodyparser-4.0.5.tgz#4a9506925f72e38e43e457b9a3afadc85f662c5e"
@@ -342,7 +352,7 @@
     figures "^3.2.0"
     string-width "^4.2.0"
 
-"@poppinss/hooks@^1.0.5":
+"@poppinss/hooks@^1.0.5", "@poppinss/hooks@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@poppinss/hooks/-/hooks-1.1.1.tgz#201414a61eadd9bcc8bfcc611648bcbbf67848f1"
   integrity sha512-QJA8dMK15XJCkLW0fW4Jk9zlXQ1ZM7JMcj0MbzLOtveZZlA7QINw/uKkjs9X3xR+AHrGWa5kOMQFxEPfkvJvjQ==
